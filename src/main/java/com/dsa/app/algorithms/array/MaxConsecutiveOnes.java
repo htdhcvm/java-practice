@@ -18,7 +18,6 @@ public class MaxConsecutiveOnes {
             }
         }
 
-
         return res;
     }
 }
