@@ -2,7 +2,7 @@ package com.dsa.app.data_structure;
 
 import java.util.Stack;
 
-public class StackInternal {
+public class StackPractice {
     public static void main(String[] args) {
         Stack<String> stString = new Stack<>();
         stString.push("1");

@@ -1,27 +1,7 @@
 package com.dsa.app.data_structure;
-import java.util.*;
 
-class Person {
-    private String id;
-    private String name;
 
-    public Person(String id, String name) {
-        this.id = id;
-        this.name = name;
-    }
-
-    @Override
-    public boolean equals(Object o) {
-        Person tmp = (Person)o;
-        return this.id == tmp.id;
-    }
-
-    @Override
-    public String toString() {
-        return "id: " + this.id + " " + "name: " + this.name;
-    }
-}
-public class ArrayListInternal {
+public class ArrayListPractice{
     public static void main(String[] args)
     {
 //        ArrayList<String> arrString = new ArrayList<>();
@@ -181,8 +161,8 @@ public class ArrayListInternal {
 
 
 
-        String[] arr8 = {"1", "2", "3"};
-        List<String> l = Arrays.asList(arr8);
+//        String[] arr8 = {"1", "2", "3"};
+//        List<String> l = Arrays.asList(arr8);
 
 
 
@@ -200,5 +180,13 @@ public class ArrayListInternal {
 //        l.removeAll(l3);
 //
 //        System.out.println(l2);
+
+//        ArrayList<Integer> list1 = new ArrayList<Integer>();
+//        ArrayList<Integer> list2 = new ArrayList<>();
+//        ArrayList<Integer> list3 = new ArrayList<>(300); // Задается initialCapacity
+//        ArrayList<Integer> list4 = new ArrayList<>(list1);
+//
+//
+//        ArrayList<Integer> list5 = new ArrayList();
     }
 }
