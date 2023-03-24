@@ -138,7 +138,7 @@ public class ArrayListInternal {
 
 //        String[] arr8 = {"1", "2", "3"};
 //        List<String> l = Arrays.asList(arr8);
-//
+
 //        ArrayList<String> l3 = new ArrayList();
 //        l3.add("3");
 //
@@ -178,5 +178,27 @@ public class ArrayListInternal {
 //
 //        List<String> wer = List.copyOf(asdf);
 //        System.out.println(wer);
+
+
+
+        String[] arr8 = {"1", "2", "3"};
+        List<String> l = Arrays.asList(arr8);
+
+
+
+//        List<String> l2 = new ArrayList<>();
+//        l2.add("1");
+//        l2.add("2");
+//        l2.add("3");
+//
+//        System.out.println(l2.getClass());
+//
+//        List<String> l3 = new ArrayList<>();
+//
+//        l3.add("2");
+//
+//        l.removeAll(l3);
+//
+//        System.out.println(l2);
     }
 }
