@@ -1,6 +1,8 @@
 package com.dsa.app.data_structure;
 
 
+import java.util.*;
+
 public class ArrayListPractice{
     public static void main(String[] args)
     {
@@ -74,6 +76,13 @@ public class ArrayListPractice{
 //
 //        StringBuilder[] arr = {sb1, sb2, sb3, sb4};
 //        List<StringBuilder> listArr = Arrays.asList(arr);
+//        arr.hashCode();
+//        System.out.println(arr);
+//
+//
+//
+//        System.out.println(listArr);
+
 //        System.out.println(listArr);
 //
 //        arr[0].append("qwer");
@@ -134,14 +143,24 @@ public class ArrayListPractice{
 
         // ---------------------------------------------------------------
 
-//        ArrayList<String> asdf = new ArrayList<>();
-//        asdf.add("111");
-//        asdf.add("211");
-//        asdf.add("311");
+//        ArrayList<String> arrList1= new ArrayList<>();
+//        arrList1.add("111");
+//        arrList1.add("211");
+//        arrList1.add("311");
 //
-//        final List<String> serz = asdf.subList(0, 2);
+//        final List<String> arrList1View = arrList1.subList(0, 2);
 //
-//        System.out.println(serz);
+//        System.out.println(arrList1);
+//        System.out.println(arrList1View);
+//
+//        arrList1View.add("444");
+//
+//        System.out.println(arrList1);
+//        System.out.println(arrList1View);
+//
+//        Object[] ar = arrList1View.toArray();
+//        String[] ar2 = arrList1View.toArray(new String[3]);
+//        System.out.println(Arrays.toString(ar));
 
         // ---------------------------------------------------------------
 
@@ -188,5 +207,56 @@ public class ArrayListPractice{
 //
 //
 //        ArrayList<Integer> list5 = new ArrayList();
+
+
+//        List<String> list1 = new ArrayList<>();
+//        List<String> list2 = new ArrayList<>();
+//
+//        List<String> list3 = new LinkedList<>();
+//
+//        Set<String> set = new HashSet<>();
+//
+//        list1.add("1");
+//        list1.add("2");
+//        list1.add("3");
+//        list1.add("4");
+//
+//        list2.add("5");
+//        list2.add("6");
+//
+//        list3.add("7");
+//        list3.add("8");
+//        set.add("1234");
+//
+//        System.out.println("list1: " + list1);
+//        System.out.println("list2: " + list2);
+//
+//        list2.addAll(1, list1);
+//        list2.addAll(1, list3);
+//        list2.addAll(1, set);
+//
+//        System.out.println("list1: " + list1);
+//        System.out.println("list2: " + list2);
+
+//        ArrayList<String> s = new ArrayList<>();
+//        s.add("1");
+//        s.add("1");
+//        s.add("1");
+//
+//        System.out.println(s.indexOf("1"));
+
+        ArrayList<Integer> l = new ArrayList<>();
+        l.add(1);
+        l.add(2);
+        l.add(3);
+
+        ArrayList<Integer> l2 = new ArrayList<>();
+        l2.add(1);
+        l2.add(2);
+        l2.add(3);
+
+        List<ArrayList<Integer>> q = List.of(l, l2);
+        System.out.println(q);;
+        System.out.println(List.copyOf(l));;
     }
 }
