@@ -66,7 +66,6 @@ public class ValidMountainArray {
             return  false;
         }
 
-        System.out.println(climb);
         while (climb < arr.length - 1 && arr[climb] > arr[climb + 1]) {
             climb += 1;
         }

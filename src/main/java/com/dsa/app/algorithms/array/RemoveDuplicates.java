@@ -16,7 +16,6 @@ public class RemoveDuplicates {
         int q = nums.length;
 
         for(int i = 0; i < q; i++) {
-            System.out.println(i);
             if(i > 0 && nums[i] == nums[i - 1]) {
                 int tmp = nums[i];
 

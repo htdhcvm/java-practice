@@ -1,18 +1,27 @@
 package com.dsa.app.algorithms.array;
 
+import org.junit.Before;
 import org.junit.Test;
 
 import static org.junit.Assert.assertArrayEquals;
 import static org.junit.Assert.assertEquals;
 
 public class RemoveDuplicatesTest {
+
+    RemoveDuplicates removeDuplicates;
+
+    @Before
+    public void setUp() {
+        this.removeDuplicates = new RemoveDuplicates();
+    }
+
+
     @Test
     public void removeElementsV1()
     {
         int[] nums = {1, 1, 2};
 
-        RemoveDuplicates removeDuplicates = new RemoveDuplicates();
-        final int output = removeDuplicates.removeDuplicates(nums);
+        final int output = this.removeDuplicates.removeDuplicates(nums);
 
         assertEquals(2, output);
     }
@@ -23,8 +32,7 @@ public class RemoveDuplicatesTest {
     {
         int[] nums = {0,0,1,1,1,2,2,3,3,4};
 
-        RemoveDuplicates removeDuplicates = new RemoveDuplicates();
-        final int output = removeDuplicates.removeDuplicates(nums);
+        final int output = this.removeDuplicates.removeDuplicates(nums);
 
         assertEquals(5, output);
     }

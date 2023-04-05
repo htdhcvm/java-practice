@@ -1,10 +1,18 @@
 package com.dsa.app.algorithms.array;
 
+import org.junit.Before;
 import org.junit.Test;
 
 import static org.junit.Assert.assertEquals;
 
 public class ValidMountainArrayTest {
+
+    ValidMountainArray validMountainArray;
+
+    @Before
+    public void setUp() {
+        this.validMountainArray = new ValidMountainArray();
+    }
 
     @Test
     public void test1()
@@ -12,8 +20,7 @@ public class ValidMountainArrayTest {
         final boolean expect = false;
         final int[] nums = {2,1 };
 
-        ValidMountainArray validMountainArray = new ValidMountainArray();
-        final boolean res = validMountainArray.validMountainArray(nums);
+        final boolean res = this.validMountainArray.validMountainArray(nums);
 
         assertEquals(expect, res);
     }
@@ -24,8 +31,7 @@ public class ValidMountainArrayTest {
         final boolean expect = false;
         final int[] nums = {3,5,6};
 
-        ValidMountainArray validMountainArray = new ValidMountainArray();
-        final boolean res = validMountainArray.validMountainArrayV2(nums);
+        final boolean res = this.validMountainArray.validMountainArrayV2(nums);
 
         assertEquals(expect, res);
     }
@@ -36,8 +42,7 @@ public class ValidMountainArrayTest {
         final boolean expect = true;
         final int[] nums = {0,3,2,1};
 
-        ValidMountainArray validMountainArray = new ValidMountainArray();
-        final boolean res = validMountainArray.validMountainArrayV2(nums);
+        final boolean res = this.validMountainArray.validMountainArrayV2(nums);
 
         assertEquals(expect, res);
     }

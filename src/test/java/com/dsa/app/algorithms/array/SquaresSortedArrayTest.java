@@ -1,10 +1,18 @@
 package com.dsa.app.algorithms.array;
 
+import org.junit.Before;
 import org.junit.Test;
 
 import static org.junit.Assert.assertArrayEquals;
 
 public class SquaresSortedArrayTest {
+
+    SquaresSortedArray squaresSortedArray;
+
+    @Before
+    public void setUp() {
+        this.squaresSortedArray = new SquaresSortedArray();
+    }
 
     @Test
     public void sortedSquares1()
@@ -12,8 +20,7 @@ public class SquaresSortedArrayTest {
         final int[] expect = {0,1,9,16,100 };
         final int[] nums = {-4,-1,0,3,10 };
 
-        SquaresSortedArray squaresSortedArray = new SquaresSortedArray();
-        final int[] sortedSquares = squaresSortedArray.sortedSquares(nums);
+        final int[] sortedSquares = this.squaresSortedArray.sortedSquares(nums);
 
         assertArrayEquals(expect, sortedSquares);
     }
@@ -24,8 +31,7 @@ public class SquaresSortedArrayTest {
         final int[] expect = {4,9,9,49,121};
         final int[] nums = {-7,-3,2,3,11};
 
-        SquaresSortedArray squaresSortedArray = new SquaresSortedArray();
-        final int[] sortedSquares = squaresSortedArray.sortedSquares(nums);
+        final int[] sortedSquares = this.squaresSortedArray.sortedSquares(nums);
 
         assertArrayEquals(expect, sortedSquares);
     }
