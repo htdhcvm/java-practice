@@ -35,7 +35,7 @@ public class RemoveDuplicatesSortedArrayTest {
 
         final int[] nums = { 0,0,1,1,1,2,2,3,3,4 };
 
-        final int result = this.removeDuplicatesSortedArray.solution(nums);
+        final int result = this.removeDuplicatesSortedArray.soluction2(nums);
 
         assertEquals(expect, result);
     }
@@ -50,4 +50,6 @@ public class RemoveDuplicatesSortedArrayTest {
 
         assertEquals(expect, result);
     }
+
+
 }

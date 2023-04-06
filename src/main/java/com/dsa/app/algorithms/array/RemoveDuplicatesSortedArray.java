@@ -23,4 +23,22 @@ public class RemoveDuplicatesSortedArray {
 
         return res;
     }
+
+    public int soluction2(int[] nums) {
+        if (nums == null) {
+            return 0;
+        }
+
+        int writePointer = 1;
+
+        for (int readPointer = 1; readPointer < nums.length; readPointer++) {
+            if (nums[readPointer] != nums[readPointer - 1]) {
+                nums[writePointer] = nums[readPointer];
+                writePointer++;
+            }
+        }
+
+        // This turns out to be the correct length value.
+        return writePointer;
+    }
 }
