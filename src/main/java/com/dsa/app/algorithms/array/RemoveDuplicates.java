@@ -10,9 +10,6 @@ public class RemoveDuplicates {
 
 
     public int removeDuplicates(int[] nums) {
-
-
-
         int q = nums.length;
 
         for(int i = 0; i < q; i++) {

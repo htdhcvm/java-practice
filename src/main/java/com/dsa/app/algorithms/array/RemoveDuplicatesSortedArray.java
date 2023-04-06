@@ -4,28 +4,23 @@ import java.util.Arrays;
 
 public class RemoveDuplicatesSortedArray {
     public int solution(int[] nums) {
-        int response = 0;
+        int res = nums.length;
 
-        int finalIndex = 0;
-        for (int i = 0; i < nums.length - 1; i++) {
-            if (nums[i] == nums[i + 1]) {
-                if (i == 0) {
-                    i = 0;
-                } else {
-                    i--;
-                }
+        for(int i = 1; i < res; i++) {
+           if(nums[i] == nums[i - 1]) {
+               int tmp = nums[i];
 
-                int tmp = nums[i + 1];
+               for(int j = i + 1; j < nums.length; j++) {
+                   nums[j -1] = nums[j];
+               }
 
-                for (int k = i + 2; k < nums.length; k++) {
-                    nums[k - 1] = nums[k];
-                }
+               nums[nums.length - 1] = tmp;
 
-                nums[nums.length - 1] = tmp;
-            }
+               i--;
+               res--;
+           }
         }
 
-        System.out.println(Arrays.toString(nums));
-        return response;
+        return res;
     }
 }

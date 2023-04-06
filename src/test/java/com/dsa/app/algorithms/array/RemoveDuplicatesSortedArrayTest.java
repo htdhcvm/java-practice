@@ -39,4 +39,15 @@ public class RemoveDuplicatesSortedArrayTest {
 
         assertEquals(expect, result);
     }
+
+    @Test
+    public void test3()
+    {
+        final int expect = 2;
+        final int[] nums = { 1,2,2,2 };
+
+        final int result =  this.removeDuplicatesSortedArray.solution(nums);
+
+        assertEquals(expect, result);
+    }
 }
