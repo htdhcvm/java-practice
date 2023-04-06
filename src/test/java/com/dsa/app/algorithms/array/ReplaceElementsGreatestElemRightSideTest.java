@@ -43,7 +43,7 @@ public class ReplaceElementsGreatestElemRightSideTest {
 
 
     @Test
-    public void test4()
+    public void test3()
     {
         int[] nums = {};
         final int[] expect = {};

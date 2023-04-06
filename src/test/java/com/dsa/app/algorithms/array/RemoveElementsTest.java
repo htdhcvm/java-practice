@@ -16,7 +16,7 @@ public class RemoveElementsTest {
 
 
     @Test
-    public void removeElementsV1()
+    public void test1()
     {
         final int[] expect = {2, 2, 3, 3};
         int val = 3;

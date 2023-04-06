@@ -18,7 +18,7 @@ public class LeadersTest {
     }
 
     @Test
-    public void solution1()
+    public void test1()
     {
         final int[] expect = { 17, 5, 2 };
         final int[] nums = { 16, 17, 4, 3, 5, 2 };
@@ -31,7 +31,7 @@ public class LeadersTest {
     }
 
     @Test
-    public void solution2()
+    public void test2()
     {
         final int[] expect = { 5, 2 };
         final int[] nums = { 1, 2, 3, 4, 5, 2 };

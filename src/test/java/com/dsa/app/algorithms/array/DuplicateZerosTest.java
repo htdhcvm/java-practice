@@ -18,7 +18,7 @@ public class DuplicateZerosTest {
 
 
     @Test
-    public void maxConsecutiveOnesTest1()
+    public void test1()
     {
         final int[] expect = {1,0,0,2,3,0,0,4};
         final int[] nums = { 1,0,2,3,0,4,5,0 };
@@ -29,7 +29,7 @@ public class DuplicateZerosTest {
     }
 
     @Test
-    public void maxConsecutiveOnesTest2()
+    public void test2()
     {
         final int[] expect = { 1,2,3 };
         final int[] nums = { 1,2,3 };

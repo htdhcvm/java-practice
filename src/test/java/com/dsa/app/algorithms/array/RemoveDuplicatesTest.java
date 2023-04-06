@@ -17,7 +17,7 @@ public class RemoveDuplicatesTest {
 
 
     @Test
-    public void removeElementsV1()
+    public void test1()
     {
         int[] nums = {1, 1, 2};
 
@@ -28,7 +28,7 @@ public class RemoveDuplicatesTest {
 
 
     @Test
-    public void removeElementsV2()
+    public void test2()
     {
         int[] nums = {0,0,1,1,1,2,2,3,3,4};
 

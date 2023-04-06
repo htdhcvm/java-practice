@@ -17,7 +17,7 @@ public class MaxConsecutiveOnesTest
 
 
     @Test
-    public void maxConsecutiveOnesTest1()
+    public void test1()
     {
         final int expect = 3;
         final int[] nums = { 1,1,0,1,1,1 };
@@ -27,7 +27,7 @@ public class MaxConsecutiveOnesTest
     }
 
     @Test
-    public void maxConsecutiveOnesTest2()
+    public void test2()
     {
         final int expect = 2;
         final int[] nums = { 1,0,1,1,0,1 };

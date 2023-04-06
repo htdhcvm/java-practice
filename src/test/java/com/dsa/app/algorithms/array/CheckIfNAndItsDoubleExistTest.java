@@ -14,7 +14,7 @@ public class CheckIfNAndItsDoubleExistTest {
     }
 
     @Test
-    public void checkIfExistV1()
+    public void test1()
     {
         final boolean expect = true;
         final int[] nums = { 10,2,5,3 };
@@ -25,7 +25,7 @@ public class CheckIfNAndItsDoubleExistTest {
     }
 
     @Test
-    public void checkIfExistV2()
+    public void test2()
     {
         final boolean expect = false;
         final int[] nums = { 3,1,7,11 };
@@ -38,7 +38,7 @@ public class CheckIfNAndItsDoubleExistTest {
 
 
     @Test
-    public void checkIfExistV3()
+    public void test3()
     {
         final boolean expect = true;
         final int[] nums = { 10,2,5,3 };
@@ -49,7 +49,7 @@ public class CheckIfNAndItsDoubleExistTest {
     }
 
     @Test
-    public void checkIfExistV4()
+    public void test4()
     {
         final boolean expect = false;
         final int[] nums = { 3,1,7,11 };

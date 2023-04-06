@@ -16,7 +16,7 @@ public class NumbersEvenNumberDigitsTest {
 
 
     @Test
-    public void numbersEvenNumberDigitsTest1()
+    public void test1()
     {
         final int expect = 2;
         final int[] nums = { 12,345,2,6,7896 };
@@ -27,7 +27,7 @@ public class NumbersEvenNumberDigitsTest {
 
 
     @Test
-    public void numbersEvenNumberDigitsTest2()
+    public void test2()
     {
         final int expect = 1;
         final int[] nums = { 555,901,482,1771};
