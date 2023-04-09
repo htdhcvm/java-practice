@@ -6,6 +6,6 @@ public class MeasureTime {
         long startTime = System.currentTimeMillis();
         task.run();
         long elapsed = System.currentTimeMillis() - startTime;
-        System.out.println("Затраченное время: " + elapsed + " ms");
+        System.out.println("Time: " + elapsed + " ms.");
     }
 }
