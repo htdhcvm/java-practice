@@ -1,4 +1,4 @@
-package com.dsa.app;
+package practice;
 
 import java.util.*;
 
@@ -8,11 +8,11 @@ public class IteratorQ {
         iter.add("test1");
         iter.add("test2");
         iter.add("test3");
-
+        
         iter.remove("test3");
         Iterator<String> iterator = iter.iterator();
-
-
+        
+        
         while (iterator.hasNext()) {
             iterator.next();
             iterator.remove();
