@@ -1,4 +1,4 @@
-package com.dsa.app.data_structure;
+package practice.data_structure;
 
 import java.util.Vector;
 

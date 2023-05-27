@@ -1,4 +1,4 @@
-package com.dsa.app.data_structure;
+package practice.data_structure;
 
 import java.util.LinkedList;
 
@@ -8,7 +8,7 @@ public class LinkedListPractice {
         l.add("str");
         l.add("str");
         l.add(2, "str");
-
+        
         System.out.println(l);
     }
 }

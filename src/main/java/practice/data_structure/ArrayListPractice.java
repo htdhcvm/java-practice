@@ -1,11 +1,10 @@
-package com.dsa.app.data_structure;
+package practice.data_structure;
 
 
 import java.util.*;
 
-public class ArrayListPractice{
-    public static void main(String[] args)
-    {
+public class ArrayListPractice {
+    public static void main(String[] args) {
 //        ArrayList<String> arrString = new ArrayList<>();
 //        arrString.add("1");
 //        arrString.add("2");
@@ -18,7 +17,7 @@ public class ArrayListPractice{
 //        for (String item:arrString) {
 //            System.out.println("item: " + item);
 //        }
-
+        
         // ---------------------------------------------------------------
 //        ArrayList<Person> personList = new ArrayList<>();
 //
@@ -140,7 +139,7 @@ public class ArrayListPractice{
 //
 //        final boolean q = l.containsAll(l2);
 //        System.out.println(q);
-
+        
         // ---------------------------------------------------------------
 
 //        ArrayList<String> arrList1= new ArrayList<>();
@@ -161,13 +160,13 @@ public class ArrayListPractice{
 //        Object[] ar = arrList1View.toArray();
 //        String[] ar2 = arrList1View.toArray(new String[3]);
 //        System.out.println(Arrays.toString(ar));
-
+        
         // ---------------------------------------------------------------
 
 //        List<Integer> list1 = List.of(1, 2, 3);
 //        list1.add(3);
-
-
+        
+        
         // ---------------------------------------------------------------
 
 //        ArrayList<String> asdf = new ArrayList<>();
@@ -179,10 +178,8 @@ public class ArrayListPractice{
 //        System.out.println(wer);
 
 
-
 //        String[] arr8 = {"1", "2", "3"};
 //        List<String> l = Arrays.asList(arr8);
-
 
 
 //        List<String> l2 = new ArrayList<>();
@@ -244,19 +241,21 @@ public class ArrayListPractice{
 //        s.add("1");
 //
 //        System.out.println(s.indexOf("1"));
-
+        
         ArrayList<Integer> l = new ArrayList<>();
         l.add(1);
         l.add(2);
         l.add(3);
-
+        
         ArrayList<Integer> l2 = new ArrayList<>();
         l2.add(1);
         l2.add(2);
         l2.add(3);
-
+        
         List<ArrayList<Integer>> q = List.of(l, l2);
-        System.out.println(q);;
-        System.out.println(List.copyOf(l));;
+        System.out.println(q);
+        ;
+        System.out.println(List.copyOf(l));
+        ;
     }
 }
