@@ -1,6 +1,6 @@
 package com.dsa.app.data_structure;
 
-import objects.Person;
+import practice.objects.Person;
 
 import java.util.PriorityQueue;
 

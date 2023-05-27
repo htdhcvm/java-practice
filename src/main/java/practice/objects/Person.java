@@ -1,4 +1,4 @@
-package objects;
+package practice.objects;
 
 import org.jetbrains.annotations.NotNull;
 
