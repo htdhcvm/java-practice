@@ -66,25 +66,25 @@ public class HeightCheckerTest {
         
         assertEquals(expect, result);
     }
-    
-    
-    @Test
-    public void speedTestSolution1() {
-        final int[] nums = Generate.generateArray(1000000, 0, 100);
-        
-        MeasureTime.measure(() ->
-                this.heightChecker.solution(nums) // -> 321 000 ms
-        );
-        
-    }
-    
-    
-    @Test
-    public void speedTestSolution2() {
-        
-        final int[] nums = Generate.generateArray(1000000, 0, 100);
-        MeasureTime.measure(() ->
-                this.heightChecker.solution2(nums) // -> 6 ms
-        );
-    }
+
+
+//    @Test
+//    public void speedTestSolution1() {
+//        final int[] nums = Generate.generateArray(1000000, 0, 100);
+//
+//        MeasureTime.measure(() ->
+//                this.heightChecker.solution(nums) // -> 321 000 ms
+//        );
+//
+//    }
+//
+
+//    @Test
+//    public void speedTestSolution2() {
+//
+//        final int[] nums = Generate.generateArray(1000000, 0, 100);
+//        MeasureTime.measure(() ->
+//                this.heightChecker.solution2(nums) // -> 6 ms
+//        );
+//    }
 }
