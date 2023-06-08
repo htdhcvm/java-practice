@@ -4,38 +4,38 @@ import org.junit.Before;
 import org.junit.Test;
 
 import java.util.ArrayList;
+import java.util.Arrays;
 import java.util.HashSet;
 
 import static org.junit.Assert.assertArrayEquals;
 
 public class DuplicateZerosTest {
     DuplicateZeros duplicateZeros;
-
+    
     @Before
     public void setUp() {
         this.duplicateZeros = new DuplicateZeros();
     }
-
-
+    
+    
     @Test
-    public void test1()
-    {
-        final int[] expect = {1,0,0,2,3,0,0,4};
-        final int[] nums = { 1,0,2,3,0,4,5,0 };
-
+    public void test1() {
+        final int[] expect = {1, 0, 0, 2, 3, 0, 0, 4};
+        final int[] nums = {1, 0, 2, 3, 0, 4, 5, 0};
+        
         this.duplicateZeros.duplicateZeros(nums);
-
+        System.out.println(Arrays.toString(nums));
+        
         assertArrayEquals(nums, expect);
     }
-
+    
     @Test
-    public void test2()
-    {
-        final int[] expect = { 1,2,3 };
-        final int[] nums = { 1,2,3 };
-
+    public void test2() {
+        final int[] expect = {1, 2, 3};
+        final int[] nums = {1, 2, 3};
+        
         this.duplicateZeros.duplicateZeros(nums);
-
+        
         assertArrayEquals(nums, expect);
     }
 }

@@ -71,7 +71,7 @@ public class FindAllNumbersDisappearedArrayTest {
         };
         final int[] nums = {4, 3, 2, 7, 8, 2, 3, 1};
         
-        final List<Integer> result = this.findAllNumbersDisappearedArray.solution2(nums);
+        final List<Integer> result = this.findAllNumbersDisappearedArray.solution(nums);
         
         assertEquals(expect, result);
     }

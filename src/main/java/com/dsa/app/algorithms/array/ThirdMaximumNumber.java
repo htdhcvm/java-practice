@@ -42,7 +42,6 @@ public class ThirdMaximumNumber {
             }
         }
         
-        System.out.println(meetMax);
         if (meetMax == 0) {
             return response;
         }

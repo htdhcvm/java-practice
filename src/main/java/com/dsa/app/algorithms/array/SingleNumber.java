@@ -24,9 +24,6 @@ public class SingleNumber {
         
         for (int num : nums) {
             int a = num ^ res;
-            System.out.println("num: " + num);
-            System.out.println("res: " + res);
-            System.out.println("num ^ res: " + a);
             res = num ^ res;
             
             System.out.println("\n");
