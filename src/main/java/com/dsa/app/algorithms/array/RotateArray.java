@@ -86,7 +86,6 @@ public class RotateArray {
             }
             
         } else {
-            // переброс с конца
             int[] tmp = new int[countRotate];
             
             int j = 0;
@@ -108,4 +107,5 @@ public class RotateArray {
             }
         }
     }
+    
 }
