@@ -1,4 +1,4 @@
-package com.dsa.app.algorithms.array;
+package com.dsa.app.algorithms.string;
 
 import org.junit.Before;
 import org.junit.Test;
@@ -22,7 +22,6 @@ public class ReverseStringTest {
         
         this.reverseString.solution(chars);
         
-        System.out.println(chars);
         assertArrayEquals(expect, chars);
     }
     
@@ -34,7 +33,6 @@ public class ReverseStringTest {
         
         this.reverseString.solution(chars);
         
-        System.out.println(chars);
         assertArrayEquals(expect, chars);
     }
     
@@ -46,7 +44,6 @@ public class ReverseStringTest {
         
         this.reverseString.solution(chars);
         
-        System.out.println(chars);
         assertArrayEquals(expect, chars);
     }
 }

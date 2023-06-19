@@ -1,4 +1,4 @@
-package com.dsa.app.algorithms.array;
+package com.dsa.app.algorithms.string;
 
 public class ReverseString {
     
