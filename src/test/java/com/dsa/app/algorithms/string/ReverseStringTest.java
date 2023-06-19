@@ -9,7 +9,6 @@ import static org.junit.Assert.assertArrayEquals;
 public class ReverseStringTest {
     ReverseString reverseString;
     
-    
     @Before
     public void setUp() {
         this.reverseString = new ReverseString();
