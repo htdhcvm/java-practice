@@ -15,6 +15,7 @@ public class SingleNumber {
             }
             
         }
+        
         return (int) h.toArray()[0];
     }
     
@@ -23,10 +24,7 @@ public class SingleNumber {
         int res = 0;
         
         for (int num : nums) {
-            int a = num ^ res;
             res = num ^ res;
-            
-            System.out.println("\n");
         }
         
         return res;

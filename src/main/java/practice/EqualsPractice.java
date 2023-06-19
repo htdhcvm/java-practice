@@ -7,6 +7,11 @@ class Manager {
 }
 
 class Progger {
+    @Override
+    public int hashCode() {
+        return super.hashCode();
+//        return 1;
+    }
 }
 
 public class EqualsPractice {
